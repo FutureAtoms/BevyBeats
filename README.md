@@ -1,7 +1,7 @@
 
 <div align="center">
 	<img src="https://raw.githubusercontent.com/futureatoms/BevyBeats/jetpack_compose/fastlane/metadata/android/en-US/images/featureGraphic.png">
-<h1>BevyBeats</h1>A FOSS YouTube Music client for Android with many features from<br>Spotify, Musixmatch, SponsorBlock, ReturnYouTubeDislike<br>
+<h1>BevyBeats</h1>A premium Music AI app that plays and generates AI music<br>Developed by Abhilash Chadhar (FutureAtoms)<br>
 <br>
 <a href="https://github.com/futureatoms/BevyBeats/releases"><img src="https://img.shields.io/github/v/release/futureatoms/BevyBeats"></a>
 <a href="https://github.com/futureatoms/BevyBeats/releases"><img src="https://img.shields.io/github/downloads/futureatoms/BevyBeats/total"></a>
@@ -20,17 +20,17 @@
 	
 ## Features ✨️
 
-- Play music from YouTube Music or YouTube free without ads in the background
-- Browsing Home, Charts, Podcast, Moods & Genre with YouTube Music data at high speed
-- Search everything on YouTube
-- Analyze your playing data, create custom playlists, and sync with YouTube Music...
+- Play and generate AI music 
+- Browsing Home, Charts, Podcast, Moods & Genre with high speed
+- Search everything
+- Analyze your playing data, create custom playlists
 - Spotify Canvas supported
 - Play 1080p video option with subtitle
-- AI suggestions songs
+- AI-generated music suggestions
 - Notification from followed artists
 - Caching and can save data for offline playback
 - Synced lyrics from Musixmatch, LRCLIB, Spotify (require login) and YouTube Transcript and translated lyrics (Community translation from Musixmatch)
-- Personalize data (*) and multi-YouTube-account support
+- Personalize data (*) and multi-account support
 - Support SponsorBlock, Return YouTube Dislike
 - Sleep Timer
 - Android Auto with online content
@@ -76,7 +76,7 @@
 
 ## Privacy
 
-BevyBeats doesn't have any tracker or third-party server for collecting user data. If YouTube
+BevyBeats doesn't have any tracker or third-party server for collecting user data. BevyBeats is a premium Music AI app that respects your privacy. If YouTube
 logged-in users enable "Send back to Google" feature, BevyBeats only uses YouTube Music Tracking API
 to send listening history and listening record of video to Google for better recommendations and
 supporting artist or YouTube Creator (For API reference,
@@ -97,11 +97,11 @@ sometimes, some songs or videos get the wrong lyric's
 
 #### 2. Why the name or brand is "BevyBeats"?
 
-Simply, because I love this name. It's a combination of Simple and Music. But BevyBeats is not a simple app, it's all you need for a powerful music streaming app.
+BevyBeats is a premium Music AI app that plays and generates AI music. The name combines musical imagery with modern AI technology, representing the app's purpose.
 
 ## Developer/Team
 
-### [futureatoms](https://github.com/futureatoms/BevyBeats): Founder/Developer/Designer 
+### [Abhilash Chadhar (FutureAtoms)](https://github.com/futureatoms/BevyBeats): Founder/Developer/Designer 
 
 ### [Owen Connor](https://github.com/owencz1998): Discord Server Admin. 
 

@@ -1,1 +1,1 @@
-Ứng dụng nghe nhạc đơn giản sử dụng dữ liệu từ YouTube Music
+Ứng dụng AI Nhạc cao cấp có thể phát và tạo nhạc AI

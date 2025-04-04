@@ -1,1 +1,1 @@
-A simple music app using YouTube Music for backend
+A premium Music AI app that plays and generates AI music

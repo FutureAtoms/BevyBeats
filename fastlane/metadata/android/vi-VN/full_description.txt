@@ -1,17 +1,18 @@
-Không chỉ là ứng dụng nghe nhạc, nó là BevyBeats
+BevyBeats là ứng dụng AI Nhạc cao cấp có thể phát và tạo nhạc AI với các tính năng sau:
 
-<br><b>Tính năng:</b>
+- Tạo và phát nhạc AI cao cấp
+- Duyệt tất cả các nội dung như bảng xếp hạng, thể loại, tâm trạng, podcast với tốc độ cao
+- Tìm kiếm và khám phá nhạc mới dễ dàng
+- Thống kê dữ liệu nghe nhạc của bạn, tạo danh sách phát tùy chỉnh
+- Hỗ trợ Spotify Canvas
+- Phát video 1080p với phụ đề
+- Đề xuất nhạc bằng AI
+- Thông báo từ nghệ sĩ theo dõi
+- Lưu trữ và phát nhạc ngoại tuyến
+- Lời bài hát đồng bộ từ nhiều nguồn với dịch thuật
+- Cá nhân hóa dữ liệu âm nhạc và hỗ trợ nhiều tài khoản
+- Hẹn giờ tắt
+- Android Auto với nội dung trực tuyến
+- Và nhiều tính năng khác!
 
-- Nghe nhạc chất lượng cao từ YouTube Music hoặc YouTube miễn phí không có quảng cáo trong nền
-- Duyệt tất cả các nội dung như bảng xếp hạng, thể loại, tâm trạng, podcast, ... từ YouTube Music với tốc độ cao
-- Tìm kiếm mọi thứ trên YouTube
-- Thống kê dữ liệu nghe nhạc của bạn, tạo danh sách phát tùy chỉnh và đồng bộ với YouTube Music
-- Tuỳ chọn xem video hỗ trợ phụ đề
-- Lưu trữ dữ liệu ngoại tuyến
-- Nhận thông báo từ các nghệ sĩ đã theo dõi
-- Đăng nhập tài khoản YouTube và hỗ trợ đa tài khoản
-- Lời bài hát được đồng bộ từ Musixmatch, Spotify và YouTube Transcript, dịch lời bài hát với cộng đồng từ Musixmatch
-- Spotify Canvas
-- Hỗ trợ SponsorBlock
-- Hẹn giờ đi ngủ
-- Và rất nhiều tính năng khác
+Phát triển bởi Abhilash Chadhar (FutureAtoms)
