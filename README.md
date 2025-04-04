@@ -43,32 +43,14 @@
 >This app is in the beta stage, so it may have many bugs and make it crash. If you find any bugs,
 > please create an issue or contact me via email or discord sever.
 
-## Screenshots
 
-<p align="center">  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/2.png?raw=true" width="200" />  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/3.png?raw=true" width="200" />  
-   <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/4.png?raw=true" width="200" />  
-   <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/5.png?raw=true" width="200" />  
-</p>  
-<p align="center">  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/6.png?raw=true" width="200" />  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/7.png?raw=true" width="200" />  
-   <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/8.png?raw=true" width="200" />  
-   <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/9.png?raw=true" width="200" />  
-</p> 
-<p align="center">  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/10.png?raw=true" width="200" />  
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/11.png?raw=true" width="200" /> 
-  <img src="https://github.com/futureatoms/BevyBeats/blob/jetpack_compose/asset/screenshot/12.png?raw=true" width="200" /> 
-</p>  
 
-#### More [screenshot](https://photos.app.goo.gl/AbieoXG5ctDrpwzp7) here.
 
 ## Data
 
 - This app uses hidden API from YouTube Music with some tricks to get data from YouTube Music.
 - Use Spotify Web API and some tricks to get Spotify Canvas and Lyrics 
+- Thanks to [SimpMusic](https://github.com/maxrave-dev/SimpMusic) for the best App ever 
 - Thanks to [InnerTune](https://github.com/z-huang/InnerTune/) for the idea to get data from YouTube Music. This repo is my inspiration to create this app
 - My app is using [SponsorBlock](https://sponsor.ajay.app/) to skip sponsor in YouTube videos.
 - ReturnYouTubeDislike for getting information on votes
@@ -82,10 +64,6 @@ to send listening history and listening record of video to Google for better rec
 supporting artist or YouTube Creator (For API reference,
 see [this](https://github.com/futureatoms/BevyBeats/blob/13f7ab6e5fa521b62a9fd31a1cefdc2787a1a8af/kotlinYtmusicScraper/src/main/java/com/futureatoms/kotlinytmusicscraper/Ytmusic.kt#L639C4-L666C1)).
 
-## Translation
-
-[![Crowdin](https://badges.crowdin.net/bevybeats/localized.svg)](https://crowdin.com/project/bevybeats)  
-You can help me translate this app into your language by using Crowdin [BevyBeats on Crowdin](https://crowdin.com/project/bevybeats)
 
 ## FAQ
 
@@ -103,22 +81,3 @@ BevyBeats is a premium Music AI app that plays and generates AI music. The name 
 
 ### [Abhilash Chadhar (FutureAtoms)](https://github.com/futureatoms/BevyBeats): Founder/Developer/Designer 
 
-### [Owen Connor](https://github.com/owencz1998): Discord Server Admin. 
-
-## Support & Donations
-<div align="left">
-<a href="https://bevybeats.org/"><img alt="Visit the website" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg"></a>
-&nbsp;
-<a href="https://discord.gg/Rq5tWVM9Hg"><img alt="Discord Server" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a>
-&nbsp;
-<br>
-<a href="https://www.buymeacoffee.com/futureatoms"><img alt="Buy me a Coffee" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
-&nbsp;
-<a href="https://liberapay.com/futureatoms/"><img alt="liberapay" height="50"
-src="https://raw.githubusercontent.com/liberapay/liberapay.com/master/www/assets/liberapay/logo-v2_black-on-yellow.svg"></a>
-</div>
-
-### MOMO or Vietnamese banking
-<p float="left">
-	<img src="https://github.com/futureatoms/BevyBeats/blob/dev/asset/52770992.jpg?raw=true" width="300">
-</p>
