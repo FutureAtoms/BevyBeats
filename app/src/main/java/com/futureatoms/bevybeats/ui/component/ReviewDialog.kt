@@ -84,20 +84,6 @@ fun ReviewDialog(
                     ) {
                         append(" ProductHunt")
                     }
-                    append("\n")
-                    append(stringResource(R.string.if_you_love_my_work_consider))
-                    withLink(
-                        LinkAnnotation.Url(
-                            "https://buymeacoffee.com/futureatoms",
-                            TextLinkStyles(style = SpanStyle(textDecoration = TextDecoration.Underline, color = seed)),
-                        ) {
-                            onDoneReview.invoke()
-                            onDismissRequest.invoke()
-                            uriHandler.openUri("https://buymeacoffee.com/futureatoms")
-                        },
-                    ) {
-                        append(stringResource(R.string.buying_me_a_coffee))
-                    }
                 },
                 textAlign = TextAlign.Center,
                 style = typo.bodySmall,

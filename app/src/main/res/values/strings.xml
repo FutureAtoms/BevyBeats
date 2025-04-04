@@ -118,8 +118,6 @@
     <string name="version">Version</string>
     <string name="github">Github</string>
     <string name="futureatoms">Abhilash Chadhar (FutureAtoms)</string>
-    <string name="buy_me_a_coffee">Buy me a coffee</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Title</string>
     <string name="album">Album</string>
     <string name="youtube_url">YouTube URL</string>
@@ -342,7 +340,6 @@
     <string name="user_interface">Interface</string>
     <string name="translucent_bottom_navigation_bar">Translucent bottom navigation bar</string>
     <string name="you_can_see_the_content_below_the_bottom_bar">You can see the content below the bottom bar</string>
-    <string name="donation">If you love my work, give me a coffee</string>
     <string name="relax">Relax</string>
     <string name="sleep">Sleep</string>
     <string name="energize">Energize</string>
@@ -402,8 +399,6 @@
     <string name="give_a_star">Give a star</string>
     <string name="enjoying_bevybeats">Enjoying BevyBeats</string>
     <string name="if_you_enjoy_using_bevybeats_star_bevybeats_on_github_or_leave_a_review_on">If you enjoy using BevyBeats, star BevyBeats on GitHub or leave a review on</string>
-    <string name="if_you_love_my_work_consider">"If you love my work, consider "</string>
-    <string name="buying_me_a_coffee">buying me a coffee.</string>
     <string name="fade_audio_effect">Fade audio effect</string>
     <string name="disabled">Disable</string>
     <string name="fade_audio_effect_duration">Fade audio effect duration (ms) (Set to 0 for disable)</string>

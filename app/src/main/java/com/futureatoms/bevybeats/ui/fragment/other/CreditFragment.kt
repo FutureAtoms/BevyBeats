@@ -55,14 +55,6 @@ class CreditFragment : Fragment() {
                 )
             startActivity(urlIntent)
         }
-        binding.btBuyMeACoffee.setOnClickListener {
-            val urlIntent =
-                Intent(
-                    Intent.ACTION_VIEW,
-                    Uri.parse("https://www.buymeacoffee.com/futureatoms"),
-                )
-            startActivity(urlIntent)
-        }
         binding.topAppBar.setNavigationOnClickListener {
             findNavController().navigateUp()
         }
