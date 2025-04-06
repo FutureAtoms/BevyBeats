@@ -117,9 +117,7 @@
     <string name="about_us">关于我们</string>
     <string name="version">版本</string>
     <string name="github">Github</string>
-    <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">请我喝杯咖啡（捐赠）</string>
-    <string name="paypal">Paypal</string>
+    <string name="futureatoms">Futureatoms</string>
     <string name="title">标题</string>
     <string name="album">专辑</string>
     <string name="youtube_url">YouTube 链接</string>
@@ -334,10 +332,9 @@
     <string name="repeat_all">全部循環</string>
     <string name="repeat_off">關閉重複播放</string>
     <string name="youtube_transcript">YouTube字幕</string>
-    <string name="user_interface">使用者介面</string>
+    <string name="user_interface">介面</string>
     <string name="translucent_bottom_navigation_bar">半透明底部導覽列</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">你可以看到底欄下方的內容</string>
-    <string name="donation">如果你喜歡我的工作，請給我一杯咖啡</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">您可以看到底部導覽列下方的內容</string>
     <string name="relax">放鬆</string>
     <string name="sleep">睡眠</string>
     <string name="energize">活力</string>

@@ -118,8 +118,6 @@
     <string name="version">版本</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">请我喝杯咖啡（捐赠）</string>
-    <string name="paypal">PayPal</string>
     <string name="title">标题</string>
     <string name="album">专辑</string>
     <string name="youtube_url">YouTube 链接</string>
@@ -301,4 +299,8 @@
     <string name="enable_spotify_lyrics">启用 Spotify 歌词</string>
     <string name="spotify_lyrícs_info">更多没有翻译的歌词</string>
     <string name="created_at">创建于 %1$s</string>
+    <string name="user_interface">界面</string>
+    <string name="translucent_bottom_navigation_bar">半透明底部导航栏</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">您可以看到底部栏下方的内容</string>
+    <string name="relax">放松</string>
 </resources>

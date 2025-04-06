@@ -118,8 +118,6 @@
     <string name="version">Версия</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Купите мне кофе</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Название</string>
     <string name="album">Альбом</string>
     <string name="youtube_url">YouTube URL</string>
@@ -266,7 +264,7 @@
     <string name="suggest">Предположение</string>
     <string name="reload">Перезагрузить</string>
     <string name="added_date">Дата добавления</string>
-    <string name="credit_app">Простое музыкальное приложение, использующее YouTube Music в качестве серверной части. \n\nBevyBeats — это проект с открытым исходным кодом для потоковой передачи музыки с YouTube и YouTube Music без рекламы и отслеживания. BevyBeats предоставляет множество функций:\n\n - Потоковое воспроизведение музыки \n - Синхронизированные тексты песен\n - Персонализация данных\n - и т. д. \n\nBevyBeats бесплатен и без рекламы\n\nСоздал с ❤️ Туан Минь Нгуен Дык (futureatoms)</string>
+    <string name="credit_app">Простое музыкальное приложение, использующее YouTube Music в качестве серверной части. \n\nBevyBeats — это проект с открытым исходным кодом для потоковой передачи музыки с YouTube и YouTube Music без рекламы и отслеживания. BevyBeats предоставляет множество функций:\n\n - Потоковое воспроизведение музыки \n - Синхронизированные тексты песен\n - Персонализация данных\n - и т. д. \n\nBevyBeats бесплатен и без рекламы\n\nСоздал с ❤️ Туан Минь Нгуен Дык (futureatoms)</string>
     <string name="issue_tracker">Трекер проблем</string>
     <string name="featured_playlists">Избранные плейлисты</string>
     <string name="featured_inArtist">Где встречается</string>
@@ -337,10 +335,9 @@
     <string name="repeat_off">Отключить повтор</string>
     <string name="youtube_transcript">Расшифровка YouTube</string>
     <string name="user_interface">Интерфейс</string>
-    <string name="translucent_bottom_navigation_bar">Полупрозрачная нижняя панель</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Вы можете увидеть содержимое под нижней панелью</string>
-    <string name="donation">Если вам нравится моя работа — купите мне кофе</string>
-    <string name="relax">Релакс</string>
+    <string name="translucent_bottom_navigation_bar">Полупрозрачная нижняя панель навигации</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Вы можете видеть содержимое под нижней панелью</string>
+    <string name="relax">Расслабляющая</string>
     <string name="sleep">Сон</string>
     <string name="energize">Тренировка</string>
     <string name="sad">Грустная</string>

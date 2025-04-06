@@ -114,12 +114,10 @@
     <string name="save_all_your_playlist_data">Lưu trữ tất cả dữ liệu danh sách phát của bạn</string>
     <string name="restore_your_data">Khôi phục</string>
     <string name="restore_your_saved_data">Khôi phục dữ liệu đã sao lưu</string>
-    <string name="about_us">Về tôi</string>
+    <string name="about_us">Về chúng tôi</string>
     <string name="version">Phiên bản</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Hỗ trợ tôi</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Tiêu đề</string>
     <string name="album">Album</string>
     <string name="youtube_url">YouTube URL</string>
@@ -335,9 +333,8 @@
     <string name="repeat_off">Tắt lặp lại</string>
     <string name="youtube_transcript">Phụ đề YouTube</string>
     <string name="user_interface">Giao diện</string>
-    <string name="translucent_bottom_navigation_bar">Thanh điều hướng mờ</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Bạn có thể xem nội dung phía dưới thanh điều hướng</string>
-    <string name="donation">Nếu bạn yêu thích những gi mà tác giả đã làm, hãy gửi cho họ một ly cà phê</string>
+    <string name="translucent_bottom_navigation_bar">Thanh điều hướng phía dưới trong suốt</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Bạn có thể nhìn thấy nội dung bên dưới thanh dưới cùng</string>
     <string name="relax">Thư giãn</string>
     <string name="sleep">Dễ ngủ</string>
     <string name="energize">Nạp năng lượng</string>
@@ -395,7 +392,6 @@
     <string name="later">Để sau</string>
     <string name="give_a_star">Tặng một sao</string>
     <string name="enjoying_bevybeats">Yêu thích BevyBeats</string>
-    <string name="if_you_enjoy_using_bevybeats_star_bevybeats_on_github_or_leave_a_review_on">Nếu bạn yêu thích BevyBeats, sao BevyBeats trên GitHub hoặc để lại một đánh giá trên</string>
-    <string name="if_you_love_my_work_consider">"Nếu bạn cảm thấy yêu thích những gì tôi làm, có thể "</string>
-    <string name="buying_me_a_coffee">mua cho tôi một ly cà phê.</string>
+    <string name="if_you_enjoy_using_bevybeats_star_bevybeats_on_github_or_leave_a_review_on">Nếu bạn thích sử dụng BevyBeats, hãy ủng hộ dự án trên GitHub hoặc để lại đánh giá trên</string>
+    <string name="fade_audio_effect">Hiệu ứng âm thanh mờ dần</string>
 </resources>

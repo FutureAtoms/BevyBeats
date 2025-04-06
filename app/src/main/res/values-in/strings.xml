@@ -115,12 +115,10 @@
     <string name="save_all_your_playlist_data">Menyimpan semua data playlist anda</string>
     <string name="restore_your_data">Pulihkan Data Anda</string>
     <string name="restore_your_saved_data">Memulihkan data yang tersimpan</string>
-    <string name="about_us">Tentang kami</string>
+    <string name="about_us">Tentang</string>
     <string name="version">Versi</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Belikan aku secangkir kopi</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Judul</string>
     <string name="album">Album</string>
     <string name="youtube_url">URL YouTube</string>
@@ -335,10 +333,9 @@
     <string name="repeat_all">Ulangi Semua</string>
     <string name="repeat_off">Pengulangan Mati</string>
     <string name="youtube_transcript">Transkripsi Youtube</string>
-    <string name="user_interface">Tampilan</string>
-    <string name="translucent_bottom_navigation_bar">Bilah navigasi bawah tembus pandang</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Anda dapat melihat konten di bawah bilah dibawah</string>
-    <string name="donation">Jika Anda menyukai pekerjaan saya, beri saya kopi</string>
+    <string name="user_interface">Antarmuka</string>
+    <string name="translucent_bottom_navigation_bar">Bilah navigasi bawah tembus cahaya</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Anda dapat melihat konten di bawah bilah bawah</string>
     <string name="relax">Santai</string>
     <string name="sleep">Tidur</string>
     <string name="energize">Energik</string>

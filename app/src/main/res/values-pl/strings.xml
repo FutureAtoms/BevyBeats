@@ -118,8 +118,6 @@
     <string name="version">Wersja</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Kup mi kawę</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Tytuł</string>
     <string name="album">Album</string>
     <string name="youtube_url">URL YouTube</string>
@@ -332,8 +330,9 @@
     <string name="no_notification">Brak powiadomienia</string>
     <string name="created_at">Utworzono: %1$s</string>
     <string name="user_interface">Interfejs</string>
-    <string name="donation">Jeśli lubisz moją pracę, kup mi kawę</string>
-    <string name="relax">Relaksujący</string>
+    <string name="translucent_bottom_navigation_bar">Półprzezroczysty dolny pasek nawigacyjny</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Możesz zobaczyć zawartość pod dolnym paskiem</string>
+    <string name="relax">Relaks</string>
     <string name="sleep">Sen</string>
     <string name="sad">Smutne</string>
     <string name="party">Impreza</string>

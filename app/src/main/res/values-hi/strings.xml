@@ -114,7 +114,8 @@
     <string name="restore_your_saved_data">अपना सहेजा गया डेटा पुनर्स्थापित करें</string>
     <string name="about_us">हमारे बारे में</string>
     <string name="version">संस्करण</string>
-    <string name="buy_me_a_coffee">मुझे एक कॉफी खरीदें</string>
+    <string name="github">गिटहब</string>
+    <string name="futureatoms">फ़्यूचरऐटम्स</string>
     <string name="title">शीर्षक</string>
     <string name="album">एल्बम</string>
     <string name="download_url">डाउनलोड URL</string>
@@ -328,8 +329,7 @@
     <string name="user_interface">इंटरफ़ेस</string>
     <string name="translucent_bottom_navigation_bar">पारदर्शी बॉटम नेविगेशन बार</string>
     <string name="you_can_see_the_content_below_the_bottom_bar">आप बॉटम बार के नीचे सामग्री देख सकते हैं</string>
-    <string name="donation">यदि आपको मेरा काम पसंद है, तो मुझे एक कॉफी दें</string>
-    <string name="relax">आराम</string>
+    <string name="relax">आराम करें</string>
     <string name="sleep">नींद</string>
     <string name="energize">ऊर्जावान</string>
     <string name="sad">उदास</string>

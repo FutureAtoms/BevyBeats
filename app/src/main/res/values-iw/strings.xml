@@ -115,12 +115,10 @@
     <string name="save_all_your_playlist_data">שמור את כל נתוני רשימות השמעה שלך</string>
     <string name="restore_your_data">שחזר את הנתונים שלך</string>
     <string name="restore_your_saved_data">שחזר את הנתונים השמורים שלך</string>
-    <string name="about_us">אודותינו</string>
+    <string name="about_us">אודות</string>
     <string name="version">גרסה</string>
-    <string name="github">גיטהאב</string>
+    <string name="github">גיטאהב</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">קנה לי קפה</string>
-    <string name="paypal">פיי-פאל</string>
     <string name="title">כותרת</string>
     <string name="album">אלבום</string>
     <string name="youtube_url">קישור ליו-טיוב</string>
@@ -342,9 +340,8 @@ BevyBeats תמיד בחינם וללא פרסומות\n\nבונה מ ❤️מ-Tu
     <string name="youtube_transcript">תמלול יוטיוב</string>
     <string name="user_interface">ממשק</string>
     <string name="translucent_bottom_navigation_bar">סרגל ניווט תחתון שקוף</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">אתה יכול לראות את התוכן מתחת לסרגל התחתון</string>
-    <string name="donation">אם אתה אוהב את העבודה שלי, תן ​​לי קפה</string>
-    <string name="relax">לְהִרָגַע</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">ניתן לראות את התוכן מתחת לסרגל התחתון</string>
+    <string name="relax">רגוע</string>
     <string name="sleep">שינה</string>
     <string name="energize">אנרגיה מידית</string>
     <string name="sad">עצב</string>

@@ -118,9 +118,7 @@
     <string name="version">เวอร์ชัน</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">เลี้ยงกาแฟให้ฉัน</string>
-    <string name="paypal">PayPal</string>
-    <string name="title">ชื่อ</string>
+    <string name="title">ชื่อเพลง</string>
     <string name="album">อัลบั้ม</string>
     <string name="youtube_url">YouTube URL</string>
     <string name="download_url">ดาวน์โหลด URL</string>
@@ -334,10 +332,9 @@
     <string name="repeat_all">ทำซ้ำทั้งหมด</string>
     <string name="repeat_off">ปิดการทำซ้ำ</string>
     <string name="youtube_transcript">บทบรรยายจาก YouTube</string>
-    <string name="user_interface">อินเทอร์เฟซ</string>
+    <string name="user_interface">ส่วนติดต่อผู้ใช้</string>
     <string name="translucent_bottom_navigation_bar">แถบนำทางด้านล่างโปร่งแสง</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">คุณสามารถดูเนื้อหาได้ที่แถบด้านล่าง</string>
-    <string name="donation">ถ้าคุณชอบแอปนี้ สามารถเลี้ยงกาแฟให้ฉันได้</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">คุณสามารถเห็นเนื้อหาด้านล่างแถบด้านล่างได้</string>
     <string name="relax">ผ่อนคลาย</string>
     <string name="sleep">นอน</string>
     <string name="energize">เพิ่มพลัง</string>

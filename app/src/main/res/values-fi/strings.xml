@@ -114,13 +114,11 @@
     <string name="save_all_your_playlist_data">Tallenna kaikki soittolistatiedot</string>
     <string name="restore_your_data">Palauta tietosi</string>
     <string name="restore_your_saved_data">Palauta tallennetut tietosi</string>
-    <string name="about_us">Tietoa meistä</string>
+    <string name="about_us">Tietoja</string>
     <string name="version">Versio</string>
-    <string name="github">GitHub</string>
+    <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Osta minulle kahvi</string>
-    <string name="paypal">PayPal</string>
-    <string name="title">Otsikko</string>
+    <string name="title">Nimi</string>
     <string name="album">Albumi</string>
     <string name="youtube_url">YouTube-URL</string>
     <string name="download_url">Lataus-URL</string>

@@ -114,12 +114,10 @@
     <string name="save_all_your_playlist_data">Salva tutti i dati delle tue playlist</string>
     <string name="restore_your_data">Ripristina i tuoi dati</string>
     <string name="restore_your_saved_data">Ripristina i tuoi dati salvari</string>
-    <string name="about_us">Riguardo a noi</string>
+    <string name="about_us">Chi siamo</string>
     <string name="version">Versione</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Comprami un caffè</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titolo</string>
     <string name="album">Album</string>
     <string name="youtube_url">Link YouTube</string>
@@ -338,8 +336,7 @@
     <string name="user_interface">Interfaccia</string>
     <string name="translucent_bottom_navigation_bar">Barra di navigazione inferiore traslucida</string>
     <string name="you_can_see_the_content_below_the_bottom_bar">Puoi vedere il contenuto sotto la barra inferiore</string>
-    <string name="donation">Se ami il mio lavoro, offrimi un caffè</string>
-    <string name="relax">Relax</string>
+    <string name="relax">Rilassati</string>
     <string name="sleep">Dormire</string>
     <string name="energize">Energetico</string>
     <string name="sad">Triste</string>

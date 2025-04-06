@@ -118,8 +118,6 @@
     <string name="version">Версія</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Купіть мені каву</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Назва</string>
     <string name="album">Альбом</string>
     <string name="youtube_url">YouTube URL</string>
@@ -337,11 +335,10 @@
     <string name="repeat_all">Повторювати всі</string>
     <string name="repeat_off">Вимкнути повторення</string>
     <string name="youtube_transcript">Розшифрування YouTube</string>
-    <string name="user_interface">Оформлення</string>
-    <string name="translucent_bottom_navigation_bar">Напівпрозора нижня панель навігації</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Ви можете побачити вміст під нижньою панеллю</string>
-    <string name="donation">Якщо ви оцінили мою роботу, дайте мені на каву</string>
-    <string name="relax">Відпочинок</string>
+    <string name="user_interface">Інтерфейс</string>
+    <string name="translucent_bottom_navigation_bar">Напівпрозора нижня навігаційна панель</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Ви можете бачити вміст під нижньою панеллю</string>
+    <string name="relax">Розслаблення</string>
     <string name="sleep">Сон</string>
     <string name="energize">Енергія</string>
     <string name="sad">Сум</string>

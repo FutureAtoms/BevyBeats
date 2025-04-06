@@ -116,10 +116,8 @@
     <string name="restore_your_saved_data">Kaydedilen verilerinizi geri yükleyin</string>
     <string name="about_us">Hakkımızda</string>
     <string name="version">Sürüm</string>
-    <string name="github">GitHub</string>
+    <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Bana bir kahve ısmarla</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Başlık</string>
     <string name="album">Albüm</string>
     <string name="youtube_url">YouTube URL\'si</string>
@@ -336,8 +334,7 @@
     <string name="youtube_transcript">YouTube Transkripti</string>
     <string name="user_interface">Arayüz</string>
     <string name="translucent_bottom_navigation_bar">Yarı saydam alt gezinme çubuğu</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">İçeriği alt çubuğun altında görebilirsiniz</string>
-    <string name="donation">Eğer işimi seviyorsanız bana bir kahve verin</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Alt çubuğun altındaki içeriği görebilirsiniz</string>
     <string name="relax">Rahatlama</string>
     <string name="sleep">Uyku</string>
     <string name="energize">Enerjik</string>

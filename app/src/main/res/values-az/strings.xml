@@ -118,8 +118,6 @@
     <string name="version">Versiya</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Mənə qəhvə al</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Başlıq</string>
     <string name="album">Albom</string>
     <string name="youtube_url">YouTube URL</string>
@@ -335,11 +333,10 @@
     <string name="repeat_all">Hamısın Təkrarla</string>
     <string name="repeat_off">Təkrarlama Bağlı</string>
     <string name="youtube_transcript">YouTube Transkripsiya</string>
-    <string name="user_interface">Cild</string>
-    <string name="translucent_bottom_navigation_bar">Yarımşəffaf alt fəaliyyət cərgəsi</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Alt cərgənin aşağısındakı məzmunu görə bilərsiniz</string>
-    <string name="donation">İşimi sevirsinizsə, mənə qəhvə verin</string>
-    <string name="relax">Dincəl</string>
+    <string name="user_interface">İnterfeys</string>
+    <string name="translucent_bottom_navigation_bar">Şəffaf alt naviqasiya çubuğu</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Alt panelin altındakı məzmunu görə bilərsiniz</string>
+    <string name="relax">Rahatla</string>
     <string name="sleep">Yuxu</string>
     <string name="energize">Enerjili</string>
     <string name="sad">Qəmli</string>

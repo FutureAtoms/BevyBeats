@@ -118,8 +118,6 @@
     <string name="version">Version</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Spendiere mir einen Kaffee</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titel</string>
     <string name="album">Album</string>
     <string name="youtube_url">YouTube URL</string>
@@ -314,9 +312,9 @@
     <string name="home_limit">Datenlimit für Startseite festlegen</string>
     <string name="no_album">Kein Album</string>
     <string name="app_widget_description">Spieler-Widget</string>
-    <string name="guide_miniplayer_content">Wischen Sie, um die Schaltfläche „Überspringen“ und „Schließen“ anzuzeigen</string>
+    <string name="guide_miniplayer_content">Wischen Sie, um die Schaltfläche "Überspringen" und "Schließen" anzuzeigen</string>
     <string name="guide_suggest_content">Zeigen Sie von der KI vorgeschlagene Songs basierend auf Ihrer Playlist an</string>
-    <string name="guide_liked_title">Zur YouTube-Playlist „Likes“ hinzufügen</string>
+    <string name="guide_liked_title">Zur YouTube-Playlist "Likes" hinzufügen</string>
     <string name="log_out_from_spotify">Von Spotify abmelden</string>
     <string name="delete">Löschen</string>
     <string name="top_videos">Top Videos</string>
@@ -334,10 +332,9 @@
     <string name="repeat_all">Alle wiederholen</string>
     <string name="repeat_off">Wiederholen aus</string>
     <string name="youtube_transcript">YouTube-Transkription</string>
-    <string name="user_interface">Oberfläche</string>
-    <string name="translucent_bottom_navigation_bar">Durchsichtige untere Navigationsleiste</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Du kannst den Inhalt unter der Navigationsleiste sehen</string>
-    <string name="donation">Wenn du meine Arbeit magst, fühl dich frei mir einen Kaffee zu spendieren</string>
+    <string name="user_interface">Benutzeroberfläche</string>
+    <string name="translucent_bottom_navigation_bar">Transparente Navigationsleiste</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Inhalte unterhalb der unteren Navigationsleiste anzeigen</string>
     <string name="relax">Entspannen</string>
     <string name="sleep">Schlafen</string>
     <string name="energize">Energie anziehen</string>

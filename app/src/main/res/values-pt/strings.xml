@@ -116,10 +116,8 @@
     <string name="restore_your_saved_data">Restaurar os dados salvos</string>
     <string name="about_us">Sobre nós</string>
     <string name="version">Versão</string>
-    <string name="github">GitHub</string>
+    <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Compre-me um café</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Título</string>
     <string name="album">Álbum</string>
     <string name="youtube_url">URL do Youtube</string>
@@ -321,7 +319,7 @@
     <string name="delete">Apagar</string>
     <string name="top_videos">Vídeos mais vistos</string>
     <string name="trending">Tendências</string>
-    <string name="new_singles">Novos “singles”</string>
+    <string name="new_singles">Novos "singles"</string>
     <string name="new_albums">Novos álbuns</string>
     <string name="notification">Notificação</string>
     <string name="month_s_ago">Há %1$d meses atrás</string>
@@ -334,8 +332,8 @@
     <string name="repeat_all">Repetir Todas</string>
     <string name="user_interface">Interface</string>
     <string name="translucent_bottom_navigation_bar">Barra de navegação inferior translúcida</string>
-    <string name="donation">Se curtiu o meu trabalho, me paga um café</string>
-    <string name="relax">Relaxante</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Podes ver o conteúdo abaixo da barra inferior</string>
+    <string name="relax">Relaxar</string>
     <string name="sad">Triste</string>
     <string name="romance">Romance</string>
     <string name="feel_good">Sinta-se Bem</string>

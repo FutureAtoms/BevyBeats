@@ -10,7 +10,7 @@
     <string name="lyrics_provider">Paroles fournies par Musixmatch</string>
     <string name="clear_search_history">Effacer l\'historique des recherches</string>
     <string name="liked">Aimé</string>
-    <string name="like">J’aime</string>
+    <string name="like">J\'aime</string>
     <string name="hello_blank_fragment">Bonjour fragment vide</string>
     <string name="download">Télécharger</string>
     <string name="downloaded">Téléchargé</string>
@@ -87,7 +87,7 @@
     <string name="move_up">Déplacer vers le haut</string>
     <string name="move_down">Déplacer vers le bas</string>
     <string name="delete_from_queue">Supprimer de la file d\'attente</string>
-    <string name="more">Plus d’infos</string>
+    <string name="more">Plus d\'infos</string>
     <string name="singles">Singles</string>
     <string name="related_artists">Artistes associés</string>
     <string name="about">À propos</string>
@@ -114,12 +114,10 @@
     <string name="save_all_your_playlist_data">Enregistrer toutes vos données de listes de lecture</string>
     <string name="restore_your_data">Restaurer vos données</string>
     <string name="restore_your_saved_data">Restaurer les données sauvegardées</string>
-    <string name="about_us">Qui sommes-nous</string>
+    <string name="about_us">À propos</string>
     <string name="version">Version</string>
     <string name="github">Github</string>
     <string name="futureatoms">futureatoms</string>
-    <string name="buy_me_a_coffee">Offrez moi un café</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titre</string>
     <string name="album">Album</string>
     <string name="youtube_url">URL Youtube </string>
@@ -148,7 +146,7 @@
     <string name="logged_in">Connecté(e)</string>
     <string name="logged_out">Déconnecté</string>
     <string name="playlist">Liste de lecture</string>
-    <string name="restart_app">Redémarrer l’application pour appliquer les changements</string>
+    <string name="restart_app">Redémarrer l\'application pour appliquer les changements</string>
     <string name="balance_media_loudness">Équilibrer l\'intensité sonore des médias</string>
     <string name="normalize_volume">Égaliser le volume</string>
     <string name="audio">Audio</string>
@@ -173,7 +171,7 @@
     <string name="save_last_played">Sauvegarder la dernière lecture</string>
     <string name="save_last_played_track_and_queue">Sauvegarde de la dernière piste jouée et de la file d\'attente</string>
     <string name="update_available">Nouvelle mise à jour disponible</string>
-    <string name="update_message">"Version %1$s disponible\nVersion : %2$s\nJournal des modifications :\n%3$s "</string>
+    <string name="update_message">\"Version %1$s disponible\nVersion : %2$s\nJournal des modifications :\n%3$s \"</string>
     <string name="check_for_update">Vérifier les mises à jour</string>
     <string name="last_checked_at">Dernière vérification : %1$s</string>
     <string name="checking">Vérification</string>
@@ -267,7 +265,7 @@
     <string name="suggest">Suggestion</string>
     <string name="reload">Recharger</string>
     <string name="added_date">Date d\'ajout</string>
-    <string name="credit_app">Une application musicale simple utilisant YouTube Music pour le backend \n\nBevyBeats est un projet open source permettant de diffuser de la musique à partir de YouTube et YouTube Music sans publicité ni suivi. BevyBeats offre de nombreuses fonctionnalités :\n\n - Musique en streaming \n - Paroles synchronisées\n - Personnaliser les données\n - etc… \n\nBevyBeats est toujours gratuit et sans publicité\n\nConstruisez avec ❤️ de Tuan Minh Nguyen Duc (futureatoms -dev)</string>
+    <string name="credit_app">Une application musicale simple utilisant YouTube Music pour le backend \n\nBevyBeats est un projet open source permettant de diffuser de la musique à partir de YouTube et YouTube Music sans publicité ni suivi. BevyBeats offre de nombreuses fonctionnalités :\n\n - Musique en streaming \n - Paroles synchronisées\n - Personnaliser les données\n - etc… \n\nBevyBeats est toujours gratuit et sans publicité\n\nConstruisez avec ❤️ de Tuan Minh Nguyen Duc (futureatoms -dev)</string>
     <string name="issue_tracker">Traqueur d\'incidents</string>
     <string name="featured_playlists">Listes de lecture en vedette</string>
     <string name="featured_inArtist">À retrouver ici</string>
@@ -294,7 +292,7 @@
     <string name="add_an_account">Ajouter un compte</string>
     <string name="signed_in">Connecté</string>
     <string name="guest">Invité</string>
-    <string name="log_out_warning">Se déconnecter de tous les comptes ?</string>
+    <string name="log_out_warning">Se déconnecter de tous les comptes ?</string>
     <string name="play_next">Jouer ensuite</string>
     <string name="codec">Codec</string>
     <string name="plays">Nombre de Lectures/Vues</string>
@@ -337,9 +335,8 @@
     <string name="youtube_transcript">Transcription YouTube</string>
     <string name="user_interface">Interface</string>
     <string name="translucent_bottom_navigation_bar">Barre de navigation inférieure translucide</string>
-    <string name="you_can_see_the_content_below_the_bottom_bar">Vous pouvez voir le contenu en dessous de la barre inférieure</string>
-    <string name="donation">Si vous aimez mon travail, offrez-moi un café</string>
-    <string name="relax">Détente</string>
+    <string name="you_can_see_the_content_below_the_bottom_bar">Vous pouvez voir le contenu sous la barre inférieure</string>
+    <string name="relax">Relaxant</string>
     <string name="sleep">Sommeil</string>
     <string name="energize">Stimulant</string>
     <string name="sad">Triste</string>
@@ -386,8 +383,8 @@
     <string name="blur_player_background_description">Effet de floutage de l\'arrière-plan de l\'écran en cours de lecture</string>
     <string name="merging_audio_and_video">Fusionner l\'audio et la vidéo</string>
     <string name="error_occurred">Une erreur s\'est produite</string>
-    <string name="downloading_audio">Téléchargement audio : %1$s</string>
-    <string name="downloading_video">Téléchargement vidéo : %1$s</string>
+    <string name="downloading_audio">Téléchargement audio : %1$s</string>
+    <string name="downloading_video">Téléchargement vidéo : %1$s</string>
     <string name="ok">OK</string>
     <string name="to_download_folder">" vers le dossier de téléchargement"</string>
     <string name="download_speed">Vitesse de téléchargement:  %1$s </string>
@@ -396,7 +393,6 @@
     <string name="later">Plus tard</string>
     <string name="give_a_star">Donner une étoile</string>
     <string name="enjoying_bevybeats">Vous appréciez BevyBeats</string>
-    <string name="if_you_enjoy_using_bevybeats_star_bevybeats_on_github_or_leave_a_review_on">Si vous aimez utiliser BevyBeats, donnez une étoile à BevyBeats sur GitHub ou laissez un avis sur</string>
-    <string name="if_you_love_my_work_consider">"Si vous aimez mon travail, considérez "</string>
-    <string name="buying_me_a_coffee">m\'offrir un café.</string>
+    <string name="if_you_enjoy_using_bevybeats_star_bevybeats_on_github_or_leave_a_review_on">Si vous aimez utiliser BevyBeats, mettez une étoile à BevyBeats sur GitHub ou laissez un avis sur</string>
+    <string name="fade_audio_effect">Effet de fondu audio</string>
 </resources>
