@@ -1,0 +1,37 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Target Repo
+        uses: actions/checkout@v4
+        with:
+          # GITHUB_TOKEN is automatically created and available
+          # It needs write permissions to push changes back
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Persist credentials so we can push later
+          persist-credentials: true
+          # Fetch all history for all branches and tags
+          fetch-depth: 0
+
+      - name: Add Upstream Remote
+        run: git remote add upstream https://github.com/maxrave-dev/SimpMusic.git
+
+      - name: Fetch Upstream Changes
+        run: git fetch upstream --tags --force
+
+      - name: Merge Upstream Changes
+        run: |
+          git checkout jetpack_compose # Checkout the branch you want to sync in your repo
+          git merge upstream/jetpack_compose --allow-unrelated-histories --no-edit # Merge the upstream main branch
+        # Add --allow-unrelated-histories if your fork started differently or diverged significantly
+        # Add --no-edit to automatically accept the default merge commit message
+
+      - name: Push Changes
+        run: git push origin jetpack_compose 
