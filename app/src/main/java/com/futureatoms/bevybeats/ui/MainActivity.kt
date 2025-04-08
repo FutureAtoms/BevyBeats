@@ -627,7 +627,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.githubResponse.observe(this) { githubResponse ->
             githubResponse?.let {
                 val currentVersion = VersionManager.getVersionName()
-                val latestVersion = it.tag_name
+                val latestVersion = it.tagName
                 
                 // Use the new comparison function
                 if (VersionManager.isVersionNewer(currentVersion, latestVersion)) {
@@ -637,7 +637,7 @@ class MainActivity : AppCompatActivity() {
                     val dialogView = layoutInflater.inflate(R.layout.dialog_webview, null)
                     val title = dialogView.findViewById<TextView>(R.id.title)
                     val webView = dialogView.findViewById<TextView>(R.id.desc)
-                    title.text = getString(R.string.new_update_available, it.tag_name)
+                    title.text = getString(R.string.new_update_available, it.tagName)
                     
                     // ... (rest of dialog setup remains the same) ...
                     
@@ -668,7 +668,7 @@ class MainActivity : AppCompatActivity() {
                     MaterialAlertDialogBuilder(this)
                         .setView(scrollView)
                         .setPositiveButton(R.string.update) { _, _ ->
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.html_url))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.htmlUrl))
                             startActivity(intent)
                         }
                         .setNegativeButton(R.string.later, null)
