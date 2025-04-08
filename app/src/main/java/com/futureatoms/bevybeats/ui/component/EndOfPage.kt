@@ -26,10 +26,10 @@ fun EndOfPage() {
         contentAlignment = Alignment.TopCenter,
     ) {
         Text(
-            "@2024 " + stringResource(R.string.app_name) + " " + stringResource(
+            "@2025 " + stringResource(R.string.app_name) + " " + stringResource(
                 R.string.version_format,
                 VersionManager.getVersionName()
-            ) + "\nfutureatoms-dev",
+            ) + "\nfutureatoms",
             style = typo.bodySmall,
             textAlign = TextAlign.Center,
             modifier =

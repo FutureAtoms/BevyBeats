@@ -69,7 +69,7 @@ class DataStoreManager(
 
     val location: Flow<String> =
         settingsDataStore.data.map { preferences ->
-            preferences[LOCATION] ?: "VN"
+            preferences[LOCATION] ?: "US"
         }
 
     suspend fun setLocation(location: String) {
@@ -82,7 +82,7 @@ class DataStoreManager(
 
     val quality: Flow<String> =
         settingsDataStore.data.map { preferences ->
-            preferences[QUALITY] ?: COMMON_QUALITY.items[0].toString()
+            preferences[QUALITY] ?: COMMON_QUALITY.items[1].toString()
         }
 
     suspend fun setQuality(quality: String) {
@@ -570,9 +570,9 @@ class DataStoreManager(
         }
     }
 
-    val chartKey =
+    val chartKey: Flow<String> =
         settingsDataStore.data.map { preferences ->
-            preferences[CHART_KEY] ?: "ZZ"
+            preferences[CHART_KEY] ?: "US"
         }
 
     suspend fun setChartKey(key: String) {

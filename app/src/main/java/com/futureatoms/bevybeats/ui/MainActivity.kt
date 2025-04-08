@@ -624,6 +624,60 @@ class MainActivity : AppCompatActivity() {
 //                )
 //            }
 //        }
+        viewModel.githubResponse.observe(this) { githubResponse ->
+            githubResponse?.let {
+                val currentVersion = VersionManager.getVersionName()
+                val latestVersion = it.tag_name
+                
+                // Use the new comparison function
+                if (VersionManager.isVersionNewer(currentVersion, latestVersion)) {
+                    val markdownText = it.body ?: ""
+                    val htmlText = markdownText.markdownToHtml()
+
+                    val dialogView = layoutInflater.inflate(R.layout.dialog_webview, null)
+                    val title = dialogView.findViewById<TextView>(R.id.title)
+                    val webView = dialogView.findViewById<TextView>(R.id.desc)
+                    title.text = getString(R.string.new_update_available, it.tag_name)
+                    
+                    // ... (rest of dialog setup remains the same) ...
+                    
+                    val scrollView = ScrollView(this)
+                    val linearLayout = LinearLayout(this)
+                    linearLayout.orientation = LinearLayout.VERTICAL
+                    linearLayout.layoutParams =
+                        LinearLayout.LayoutParams(
+                            LinearLayout.LayoutParams.MATCH_PARENT,
+                            LinearLayout.LayoutParams.WRAP_CONTENT,
+                        )
+                    linearLayout.setPadding(50, 20, 50, 20)
+                    linearLayout.background =
+                        ColorDrawable(
+                            ResourcesCompat.getColor(
+                                resources,
+                                R.color.colorPrimaryLight,
+                                null,
+                            ),
+                        )
+                    webView.text = htmlText
+                    webView.setTextIsSelectable(true)
+                    Linkify.addLinks(webView, Linkify.WEB_URLS)
+                    linearLayout.addView(title)
+                    linearLayout.addView(webView)
+                    scrollView.addView(linearLayout)
+
+                    MaterialAlertDialogBuilder(this)
+                        .setView(scrollView)
+                        .setPositiveButton(R.string.update) { _, _ ->
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.html_url))
+                            startActivity(intent)
+                        }
+                        .setNegativeButton(R.string.later, null)
+                        .show()
+                }
+                // Reset the LiveData to prevent showing the dialog again on configuration change
+                viewModel.githubResponse.value = null
+            }
+        }
     }
 
     override fun onDestroy() {
