@@ -734,7 +734,7 @@ class DataStoreManager(
 
     val autoCheckForUpdates =
         settingsDataStore.data.map { preferences ->
-            preferences[AUTO_CHECK_FOR_UPDATES] ?: TRUE
+            preferences[AUTO_CHECK_FOR_UPDATES] ?: FALSE
         }
 
     suspend fun setAutoCheckForUpdates(autoCheck: Boolean) {
