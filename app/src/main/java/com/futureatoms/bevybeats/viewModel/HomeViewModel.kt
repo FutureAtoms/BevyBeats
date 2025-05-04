@@ -74,11 +74,8 @@ class HomeViewModel(
     val showLogInAlert: StateFlow<Boolean> = _showLogInAlert
 
     init {
-        if (runBlocking { dataStoreManager.cookie.first() }.isEmpty() &&
-            runBlocking {
-                dataStoreManager.shouldShowLogInRequiredAlert.first() == TRUE
-            }
-        ) {
+        // Always show login alert regardless of settings
+        if (runBlocking { dataStoreManager.cookie.first() }.isEmpty()) {
             _showLogInAlert.update { true }
         }
         homeJob = Job()

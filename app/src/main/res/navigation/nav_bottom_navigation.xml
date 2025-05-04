@@ -254,5 +254,17 @@
         app:exitAnim="@anim/top_to_bottom"
         app:popEnterAnim="@anim/bottom_to_top"
         app:popExitAnim="@anim/top_to_bottom" />
+    <fragment
+        android:id="@+id/bottom_navigation_item_ai"
+        android:name="com.futureatoms.bevybeats.ui.fragment.ai.AiFragment"
+        android:label="fragment_ai"
+        tools:layout="@layout/fragment_ai" />
+    <action
+        android:id="@+id/action_global_bottom_navigation_item_ai"
+        app:destination="@id/bottom_navigation_item_ai"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
 
 </navigation>

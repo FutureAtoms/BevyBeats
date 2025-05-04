@@ -80,4 +80,15 @@
     <color name="card_shadow_2">#2D151515</color>
     <color name="light_blue_50">#FFE1F5FE</color>
     <color name="light_blue_200">#FF81D4FA</color>
+
+    <!-- AI Feature Colors -->
+    <color name="copper_shimmer">#994C17</color>
+    <color name="copper_shimmer_dark">#7A3D12</color>
+    <color name="deep_purple">#4A148C</color>
+    <color name="deep_purple_dark">#311B92</color>
+    <color name="magical_teal">#004D40</color>
+    <color name="magical_teal_dark">#00352C</color>
+    <color name="button_stroke">#E0E0E0</color>
+    <color name="login_button_text">#000000</color>
+    <color name="button_transparency">#CC000000</color>
 </resources>

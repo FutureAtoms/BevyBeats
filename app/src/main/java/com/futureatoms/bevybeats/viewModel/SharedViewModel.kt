@@ -1532,6 +1532,16 @@ class SharedViewModel(
             dataStoreManager.doneOpenAppTime()
         }
     }
+
+    fun isLoggedIn(): Boolean = runBlocking { 
+        dataStoreManager.loggedIn.first() == DataStoreManager.TRUE 
+    }
+    
+    fun setShowLogInRequiredAlert(show: Boolean) {
+        viewModelScope.launch {
+            dataStoreManager.setShouldShowLogInRequiredAlert(show)
+        }
+    }
 }
 
 sealed class UIEvent {

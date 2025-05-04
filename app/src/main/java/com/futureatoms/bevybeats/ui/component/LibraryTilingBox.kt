@@ -14,6 +14,7 @@ import androidx.compose.material.icons.automirrored.filled.TrendingUp
 import androidx.compose.material.icons.filled.Downloading
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Insights
+import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.Icon
@@ -21,6 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
@@ -96,17 +98,24 @@ fun LibraryTilingItem(
 ) {
     val context = LocalContext.current
     val title = context.getString(state.title)
-    ElevatedCard(
-        modifier =
-            Modifier.fillMaxWidth().clickable {
+    
+    // Use a Card with shadow for a skeuomorphic 3D effect
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .shadow(
+                elevation = 4.dp,
+                shape = RoundedCornerShape(12.dp),
+                ambientColor = Color.Black.copy(alpha = 0.2f),
+                spotColor = Color.Black.copy(alpha = 0.3f)
+            )
+            .clickable {
                 onClick.invoke()
             },
-        shape = RoundedCornerShape(8.dp),
-        elevation = CardDefaults.elevatedCardElevation(),
-        colors =
-            CardDefaults.elevatedCardColors().copy(
-                containerColor = state.containerColor,
-            ),
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = state.containerColor,
+        ),
     ) {
         Row(
             Modifier.fillMaxWidth(),
@@ -115,16 +124,16 @@ fun LibraryTilingItem(
             Icon(
                 state.icon,
                 contentDescription = title,
-                modifier =
-                    Modifier
-                        .size(50.dp)
-                        .padding(10.dp),
+                modifier = Modifier
+                    .size(50.dp)
+                    .padding(10.dp),
                 tint = state.iconColor,
             )
             Text(
                 title,
                 style = typo.titleSmall,
-                color = Color.Black,
+                color = state.textColor,
+                modifier = Modifier.padding(end = 16.dp)
             )
         }
     }
@@ -135,35 +144,43 @@ data class LibraryTilingState(
     val containerColor: Color,
     val icon: ImageVector,
     val iconColor: Color,
+    val textColor: Color,
 ) {
     companion object {
+        // Dark background color with slight gradient
+        private val darkGrayBackground = Color(0xFF2A2A2A)
+        
         val Favorite =
             LibraryTilingState(
                 title = R.string.favorite,
-                containerColor = Color(0xffff99ae),
+                containerColor = darkGrayBackground,
                 icon = Icons.Default.Favorite,
-                iconColor = Color(0xffD10000),
+                iconColor = Color(0xffFF5252),
+                textColor = Color(0xffFF5252)
             )
         val Followed =
             LibraryTilingState(
                 title = R.string.followed,
-                containerColor = Color(0xffFFEB3B),
+                containerColor = darkGrayBackground,
                 icon = Icons.Default.Insights,
-                iconColor = Color.Black,
+                iconColor = Color(0xffFFEB3B),
+                textColor = Color(0xffFFEB3B)
             )
         val MostPlayed =
             LibraryTilingState(
                 title = R.string.most_played,
-                containerColor = Color(0xff00BCD4),
+                containerColor = darkGrayBackground,
                 icon = Icons.AutoMirrored.Filled.TrendingUp,
-                iconColor = Color.Black,
+                iconColor = Color(0xff00BCD4),
+                textColor = Color(0xff00BCD4)
             )
         val Downloaded =
             LibraryTilingState(
                 title = R.string.downloaded,
-                containerColor = Color(0xff4CAF50),
+                containerColor = darkGrayBackground,
                 icon = Icons.Default.Downloading,
-                iconColor = Color.Black,
+                iconColor = Color(0xff4CAF50),
+                textColor = Color(0xff4CAF50)
             )
     }
 }

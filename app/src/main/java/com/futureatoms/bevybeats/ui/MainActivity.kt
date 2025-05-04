@@ -115,6 +115,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         VersionManager.initialize(applicationContext)
+        
+        // Force check login status on app start
+        if (runBlocking { viewModel.isLoggedIn() } == false) {
+            viewModel.setShowLogInRequiredAlert(true)
+        }
+        
         checkForUpdate()
         if (viewModel.recreateActivity.value == true) {
             viewModel.activityRecreateDone()
