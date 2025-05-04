@@ -625,58 +625,7 @@ class MainActivity : AppCompatActivity() {
 //            }
 //        }
         viewModel.githubResponse.observe(this) { githubResponse ->
-            githubResponse?.let {
-                val currentVersion = VersionManager.getVersionName()
-                val latestVersion = it.tagName
-                
-                // Use the new comparison function
-                if (VersionManager.isVersionNewer(currentVersion, latestVersion)) {
-                    val markdownText = it.body ?: ""
-                    val htmlText = markdownText.markdownToHtml()
-
-                    val dialogView = layoutInflater.inflate(R.layout.dialog_webview, null)
-                    val title = dialogView.findViewById<TextView>(R.id.title)
-                    val webView = dialogView.findViewById<TextView>(R.id.desc)
-                    title.text = getString(R.string.new_update_available, it.tagName)
-                    
-                    // ... (rest of dialog setup remains the same) ...
-                    
-                    val scrollView = ScrollView(this)
-                    val linearLayout = LinearLayout(this)
-                    linearLayout.orientation = LinearLayout.VERTICAL
-                    linearLayout.layoutParams =
-                        LinearLayout.LayoutParams(
-                            LinearLayout.LayoutParams.MATCH_PARENT,
-                            LinearLayout.LayoutParams.WRAP_CONTENT,
-                        )
-                    linearLayout.setPadding(50, 20, 50, 20)
-                    linearLayout.background =
-                        ColorDrawable(
-                            ResourcesCompat.getColor(
-                                resources,
-                                R.color.colorPrimaryLight,
-                                null,
-                            ),
-                        )
-                    webView.text = htmlText
-                    webView.setTextIsSelectable(true)
-                    Linkify.addLinks(webView, Linkify.WEB_URLS)
-                    linearLayout.addView(title)
-                    linearLayout.addView(webView)
-                    scrollView.addView(linearLayout)
-
-                    MaterialAlertDialogBuilder(this)
-                        .setView(scrollView)
-                        .setPositiveButton(R.string.update) { _, _ ->
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.htmlUrl))
-                            startActivity(intent)
-                        }
-                        .setNegativeButton(R.string.later, null)
-                        .show()
-                }
-                // Reset the LiveData to prevent showing the dialog again on configuration change
-                viewModel.githubResponse.value = null
-            }
+            // THIS ENTIRE BLOCK WILL BE DELETED (lines ~627 to ~679)
         }
     }
 
@@ -747,8 +696,11 @@ class MainActivity : AppCompatActivity() {
             viewModel.githubResponse.observe(this) { response ->
                 if (response != null && !this.isInPictureInPictureMode && !viewModel.showedUpdateDialog) {
                     Log.w("MainActivity", "Check for update")
-                    Log.w("MainActivity", "Current version: ${getString(R.string.version_format, VersionManager.getVersionName())}")
-                    if (response.tagName != getString(R.string.version_format, VersionManager.getVersionName())) {
+                    val currentVersion = VersionManager.getVersionName()
+                    val latestVersion = response.tagName // Correct property name
+                    Log.w("MainActivity", "Current version: $currentVersion, Latest version: $latestVersion")
+                    // Use the correct version comparison here
+                    if (VersionManager.isVersionNewer(currentVersion, latestVersion)) {
                         viewModel.showedUpdateDialog = true
                         val inputFormat =
                             SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
@@ -783,7 +735,7 @@ class MainActivity : AppCompatActivity() {
                                 text =
                                     getString(
                                         R.string.update_message,
-                                        response.tagName,
+                                        response.tagName, // Correct property name
                                         formatted,
                                         "",
                                     )
@@ -799,7 +751,7 @@ class MainActivity : AppCompatActivity() {
                         )
                         layout.addView(
                             TextView(this).apply {
-                                text = markdownToHtml(response.body ?: "")
+                                text = markdownToHtml(response.body ?: "") // Correct function call
                                 textSize = 13f
                                 autoLinkMask = Linkify.ALL
                                 setLineSpacing(0f, 1.2f)
@@ -828,6 +780,8 @@ class MainActivity : AppCompatActivity() {
                                 dialog.dismiss()
                             }.show()
                     }
+                     // Cannot set response value here, needs to be handled in ViewModel
+                     // viewModel.githubResponse.value = null 
                 }
             }
         }
